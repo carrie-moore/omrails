@@ -42,6 +42,7 @@ class PinsController < ApplicationController
   # POST /pins
   # POST /pins.json
   def create
+    def create
     @pin = current_user.pins.new(params[:pin])
 
     respond_to do |format|
