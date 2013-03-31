@@ -74,7 +74,7 @@ Omrails::Application.configure do
   :s3_credentials => {
     :bucket => "ccomrails",
     :access_key_id => "AKIAIX3QVPE7RBVO3TRA",
-    :secret_access_key => "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"
+    :secret_access_key => "UMCdj7IbmOT45/M2LWXeaSYib0w8iNRzp0TgmbBS",
     }
   }
 end
